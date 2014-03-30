@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Payment";
+}
+
+<h2>Stripe Payment Example</h2>
+<p>Test card: 4242 4242 4242 4242</p>
+<p>Expiry date on card: any future date</p>
+<p>CVV: any 3 digit number</p>
+
+<form action="@Url.Action("Charge")" method="POST">
+    <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="your-test-publisher-key" 
+        data-image="/square-image.png"
+        data-name="Demo Site"
+        data-description="2 widgets (£20.00)"
+        data-currency="GBP"
+        data-amount="2500">
+    </script>
+</form>
