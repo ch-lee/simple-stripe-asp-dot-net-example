@@ -1,9 +1,7 @@
-A Simple Stripe.Net Payment with ASP.NET MVC
-=======
+## A Simple Stripe.Net Payment with ASP.NET MVC
+
 
 A simple ASP.NET MVC integrated with Stripe's pay button.
-
-## Links:
 
 
 ## Author
